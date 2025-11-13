@@ -1,3 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch / ML Models
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+
+# Data files
+*.csv
+*.json
+*.xml
+*.parquet
+data/
+*.data
+
+# Ignore everything in notebooks/data except the directory and README
+notebooks/data/*
+!notebooks/data/README.md
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.bak
+
+# Coder/Container specific
 /.bash_logout
 /.bash_history
 /.bashrc
@@ -5,32 +70,17 @@
 /.config
 /.dotnet
 /.init_done
-/.ipynb_checkpoints
 /.ipython
 /.jupyter
 /.local
 /.profile
 /.vscode-server
 /.wget-hsts
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.db
-*.log
-*.env
-.env.*
-.DS_Store
-.idea/
-.vscode/
 /.lesshst
 .vscode-server/
-/.vscode-server
-.history/
 .gitconfig
 
-# Ignore everything in notebooks/data except the directory and README
-notebooks/data/*
-!notebooks/data/README.md
+# History and temporary files
+.history/
+*.tmp
+*.temp
