@@ -27,3 +27,6 @@ __pycache__/
 .idea/
 .vscode/
 /.lesshst
+.vscode-server/
+/.vscode-server
+.history/
