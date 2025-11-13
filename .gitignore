@@ -29,6 +29,7 @@ __pycache__/
 .vscode-server/
 /.vscode-server
 .history/
+.gitconfig
 
 # Ignore everything in notebooks/data except the directory and README
 notebooks/data/*
