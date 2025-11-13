@@ -13,7 +13,6 @@
 /.vscode-server
 /.wget-hsts
 venv/
-data/
 __pycache__/
 *.pyc
 *.pyo
@@ -30,4 +29,7 @@ __pycache__/
 .vscode-server/
 /.vscode-server
 .history/
-./data/*
+
+# Ignore everything in notebooks/data except the directory and README
+notebooks/data/*
+!notebooks/data/README.md
