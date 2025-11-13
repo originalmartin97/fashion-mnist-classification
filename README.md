@@ -30,16 +30,15 @@ This project implements a neural network classifier to recognize 10 different ty
 
 ```
 fashion-mnist-classification/
+├── .gitignore                                  # Git ignore rules
+├── archive/                                    # Previous experimental
+├── docs/                                       # Documentation files
 ├── notebooks/
 │   ├── EDA_MNISTFashion_classification.ipynb   # Exploratory data analysis
 │   ├── MNISTFashion_classifiaction.ipynb       # Main classification 
-│   ├── data/                                   # Notebook-specific data
-│   └── docs/                                   # Documentation files
-├── archive/                                    # Previous experimental
-├── venv/                                       # Virtual environment
-├── requirements.txt                            # Python dependencies
-├── .gitignore                                  # Git ignore rules
-└── README.md
+│   └── data/                                   # Notebook-specific data
+├── README.md
+└── requirements.txt                            # Python dependencies
 ```
 
 ## 🚀 Getting Started
