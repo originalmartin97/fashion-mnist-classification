@@ -11,7 +11,4 @@
 - going back to 10 epochs
 ![alt text](50epoch.png)
 
-#
-
 # Decided to go with only Custom Normalized Dataset
-## Checked with
